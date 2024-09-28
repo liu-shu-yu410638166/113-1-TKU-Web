@@ -1,20 +1,20 @@
-/* 全局樣式，設置邊距、填充和盒子模型 */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 設定網頁的字體、背景和基本樣式 */
+
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f0f9ff, #ffffff); /* 淡藍色到白色的漸變背景 */
+    background: linear-gradient(135deg, #f0f9ff, #ffffff); 
     color: #333;
     padding: 20px;
     line-height: 1.6;
 }
 
-/* 設定主要容器的寬度和對齊 */
+
 #app {
     max-width: 900px;
     margin: 0 auto;
@@ -45,15 +45,15 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* 段落樣式 */
+
 p {
     text-align: center;
     font-size: 1rem;
-    color: #95a5a6; /* 淡灰文字 */
+    color: #95a5a6;
     margin-bottom: 20px;
 }
 
-/* 卡片樣式，使用白色背景和陰影效果 */
+
 .card {    
     background-color: white;
     padding: 20px;
@@ -62,20 +62,20 @@ p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 清單樣式 */
+
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 ul li {
-    background-color: #f7f9f9; /* 淡灰色背景 */
+    background-color: #f7f9f9;
     list-style-type: none;
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 8px;
     font-size: 1rem;
-    color: #2c3e50; /* 深藍色文字 */
+    color: #2c3e50; 
 }
 
 /* 表格樣式 */
@@ -97,10 +97,10 @@ table th {
 }
 
 table td {
-    color: #333; /* 表格內文字顏色 */
+    color: #333; 
 }
 
-/* 圖片樣式，設置居中和陰影效果 */
+
 img {
     display: block;
     margin: 20px auto;
@@ -109,7 +109,7 @@ img {
     max-width: 50%;
 }
 
-/* 表單樣式 */
+
 form {
     display: flex;
     flex-direction: column;
@@ -142,7 +142,7 @@ form input[type="submit"]:hover {
     background-color: #2980b9;
 }
 
-/* 提示信息的樣式 */
+
 .highlight {
     color: #e74c3c;
     font-weight: bold;
