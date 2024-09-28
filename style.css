@@ -1,0 +1,150 @@
+/* 全局樣式，設置邊距、填充和盒子模型 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 設定網頁的字體、背景和基本樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f9ff, #ffffff); /* 淡藍色到白色的漸變背景 */
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 設定主要容器的寬度和對齊 */
+#app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #34495e; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #3498db; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #7f8c8d; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 段落樣式 */
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: #95a5a6; /* 淡灰文字 */
+    margin-bottom: 20px;
+}
+
+/* 卡片樣式，使用白色背景和陰影效果 */
+.card {    
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 清單樣式 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f7f9f9; /* 淡灰色背景 */
+    list-style-type: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #2c3e50; /* 深藍色文字 */
+}
+
+/* 表格樣式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd; 
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db; 
+    color: white;
+}
+
+table td {
+    color: #333; /* 表格內文字顏色 */
+}
+
+/* 圖片樣式，設置居中和陰影效果 */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+}
+
+/* 表單樣式 */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%; /* 滿寬度 */
+    max-width: 400px;
+}
+
+form input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%; /* 滿寬度 */
+    max-width: 200px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* 提示信息的樣式 */
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

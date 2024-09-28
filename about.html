@@ -1,53 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>關於我 劉書宇</title>
+    <link rel="stylesheet" href="style.css"> <!-- 連結 CSS 文件 -->
 </head>
 
 <body>
-    <h1>
-        歡迎來到Jayson劉書宇的網站
-    </h1>
+    <div id="app"> <!-- 使用 app 容器 -->
+        <h1>歡迎來到Jayson劉書宇的網站</h1>
+        <h2>淡江資管4A 410638166</h2>
+        <h3>延畢生</h3>
+        
+        <div class="card"> <!-- 卡片區塊 -->
+            <p>來自苗栗的客家人</p>
+            <a href="https://www.instagram.com/shuyu014/">這是我的instagram</a>
+        </div>
 
-    <h2>淡江資管4A 410638166</h2>
-    <h3>延畢生</h3>
-    <p>來自苗栗的客家人</p>
-    <a href="https://www.instagram.com/shuyu014/">這是我的instagram</a>
-    <div>
-        <p>以下是我的資料</p>
+        <div class="card">
+            <p>以下是我的資料</p>
+            <table>
+                <tr>
+                    <th>身高</th>
+                    <th>體重</th>
+                    <th>年齡</th>
+                </tr>
+                <tr>
+                    <td>180</td>
+                    <td>78</td>
+                    <td>23</td>
+                </tr>
+            </table>
+            <ul>
+                <li>綽號:小宇</li>
+                <li>工作:學生</li>            
+            </ul>
+        </div>
+
+        <div class="card">
+            <h4>我喜歡狗狗</h4>
+            <img src="薩摩耶.jpg" alt="這是一隻薩摩耶">
+        </div>
+
+        <div class="card">
+            <form action="/submit" method="post">
+                <label for="name">提問:</label>
+                <input type="text" id="name" name="name" placeholder="輸入你的提問">
+                <input type="submit" value="提交">
+            </form>
+            <p class="highlight">留言功能暫不開放</p>
+        </div>
     </div>
-    <table>
-        <tr>
-            <th>綽號</th>
-            <th>工作</th>
-        </tr>
-        <tr>
-            <td>小宇</td>
-            <td>學生</td>
-        </tr>
-    </table>
-    <ul>
-        <li>23歲</li>
-        <li>180公分</li>
-        <li>75.85公斤</li>
-    </ul>
-    <ol></ol>
-    <li>有機車駕照</li>
-    <li>有汽車駕照</li>
-    <li>有重機駕照</li>
-    </ol>
-    <img src="薩摩耶.jpg" alt="這是一隻薩摩耶">
-    <h4>我喜歡狗狗</h4>
-    <form action="/submit" method="post"></form>
-    <label for="name">提問:</label>
-    <input type="text" id="name" name="name">
-    <input type="submit" value="提交">
-    <span>有甚麼問題都可以問</span>
-    </form>
-
 </body>
 
 </html>
